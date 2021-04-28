@@ -1,0 +1,89 @@
+input {
+    padding:10px;
+    border:2px solid #aaa;
+    border-radius: 5px;
+    box-shadow:0 0 8px 4px rgba(73, 70, 70, 0.06);
+}
+
+.card {
+
+    height: 280px;
+    width: 1200px;
+    margin: 120px auto;
+    
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 10px;
+
+    
+    
+
+    
+  }
+
+  .input-fields{
+
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  .converter-container{
+      width: 70%;
+      
+      margin: auto;
+      padding:30px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+  }
+
+  .converter-container >div> h1{
+
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+  
+
+input{
+    margin-left: 10px;
+}
+
+select>option{
+    margin-right: 10px;
+}
+ label{
+     font-size: 15px;
+     font-weight: bold;
+     margin-right: 5px;
+}
+
+
+
+select {
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(51, 47, 47);
+    
+    padding: .6em 1.4em .5em .8em;
+    margin-right: 10px;
+    
+    /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    
+    background-color: #fff;
+}
+
+ 
